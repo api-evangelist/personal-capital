@@ -1,0 +1,46 @@
+{
+    "name": "Personal Capital",
+    "description": "Take control of your money now with Personal Capital. Manage assets and investments, get objective advice and strategies, all at PersonalCapital.com.",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28315-www-personalcapital-com.jpg",
+    "tags": [
+        "api not found",
+        "financial",
+        "financial services",
+        "have api"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/personal-capital\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Personal Capital",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28315-www-personalcapital-com.jpg",
+            "humanURL": "https:\/\/www.personalcapital.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/personal-capital-postman-collection.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/personal-capital"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/PersonalCapital"
+        },
+        {
+            "type": "Website",
+            "url": "https:\/\/www.personalcapital.com"
+        }
+    ]
+}
