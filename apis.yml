@@ -1,8 +1,26 @@
 aid: personal-capital
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/personal-capital.png
 name: Personal Capital
-description: 'Personal Capital is a company surfaced as a portfolio company of ivp and added to the API
-  Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Personal Capital is a digital wealth management and personal finance company, now operating
+  as an Empower company, that pairs free online money-management tools with paid registered-investment-adviser
+  services. Its Personal Capital / Empower Personal Dashboard app lets individuals link bank, brokerage,
+  retirement, and loan accounts to track net worth, analyze investment fees, plan for retirement, and
+  manage cash flow, while Personal Capital Advisors Corporation (an SEC-registered investment adviser)
+  offers human financial advisors and managed portfolios for clients who link at least $100,000 in
+  investable assets. Personal Capital was acquired by Empower Retirement (Great-West Lifeco / Power
+  Corporation) in 2020. The company is consumer-facing and, as of this enrichment pass, does not
+  publish a public developer API, OpenAPI, or developer portal.'
 url: https://raw.githubusercontent.com/api-evangelist/personal-capital/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +30,37 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Fintech
+- Wealth Management
+- Personal Finance
+- Financial Planning
+- Investing
+- Retirement
+- Financial Advisor
 apis: []
+common:
+- type: DomainSecurity
+  url: security/personal-capital-domain-security.yml
+- type: Website
+  url: https://www.personalcapital.com/
+- type: Login
+  url: https://home.personalcapital.com/page/login/goHome
+- type: SignUp
+  url: https://www.personalcapital.com/sign-up/onboarding-v2
+- type: Support
+  url: https://support-personalwealth.empower.com/hc/en-us
+- type: Blog
+  url: https://www.personalcapital.com/blog/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
